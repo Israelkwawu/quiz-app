@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div id="home" class="flex-center flex-column">
+            <h1>Quick Quiz</h1>
+            <!-- <select class="btn" id="category">
+                <option selected value="">Select Category</option>
+                <option value="https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple">General Knowledge</option>
+                <option value="https://opentdb.com/api.php?amount=10&category=18">Computer Science</option>
+                <option value="https://opentdb.com/api.php?amount=10&category=20">Mythology</option>
+            </select> -->
+            <a class="btn category" href="https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple">General Knowledge</a>
+            <a class="btn category"  href="https://opentdb.com/api.php?amount=10&category=18">Computer Science</a>
+            <a class="btn category"  href="https://opentdb.com/api.php?amount=10&category=20">Mythology</a>
+            <span id="error" class="hidden" style="color: red; font-size: 1.4rem;">Please Select category</span>
+            <a class="btn hidden" disabled id="play" href="#">Play</a>
+            <a class="btn" href="highscores.html">High Scores</a>
+        </div>
+    </div>
+</body>
+</html>
